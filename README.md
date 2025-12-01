@@ -1,73 +1,137 @@
-# 📘 Prática IV – Implementação e Manipulação de Dados em SQL
+📘 Prática IV – Implementação e Manipulação de Dados em SQL
 
 Repositório destinado à implementação de comandos SQL (DML) utilizados para manipulação de dados em um banco relacional, seguindo o mini-mundo da Biblioteca Acadêmica.
 
-Este projeto faz parte da **Experiência Prática IV** da disciplina de Banco de Dados.
+Este projeto faz parte da Experiência Prática IV da disciplina de Banco de Dados.
+
 
 ---
 
-## 🏗️ Estrutura do Repositório
+📚 Estrutura do Repositório
 
-| Arquivo | Descrição |
-|--------|-----------|
-| **insercoes.sql** | Comandos INSERT para preencher as tabelas Usuário, Livro, Empréstimo, Reserva e Multa. |
-| **consultas.sql** | Contém 5 consultas SELECT utilizando WHERE, ORDER BY, LIMIT e JOIN. |
-| **atualizacoes.sql** | Contém comandos UPDATE e DELETE aplicados às tabelas. |
+O repositório contém os seguintes arquivos:
 
----
+1. insercoes.sql
 
-## 🗂️ Mini-mundo do Projeto
+Contém comandos INSERT para popular as principais tabelas do banco de dados:
 
-Sistema de **Biblioteca Acadêmica** incluindo:
+Usuário
 
-- Usuário  
-- Livro  
-- Empréstimo  
-- Reserva  
-- Multa
+Livro
 
-O modelo lógico foi normalizado corretamente em **1FN, 2FN e 3FN**.
+Empréstimo
+
+Reserva
+
+Multa
+
+
 
 ---
 
-## 🧰 Tecnologias Utilizadas
+2. consultas.sql
 
-- **SQL (DML)**
-- MySQL Workbench ou pgAdmin  
-- Git / GitHub  
+Contém pelo menos 5 consultas SELECT, utilizando:
 
----
+WHERE
 
-## ▶️ Como Executar
+ORDER BY
 
-1. Clone o repositório:
-2. Abra no MySQL Workbench ou pgAdmin.
+LIMIT
 
-3. Execute os arquivos na ordem:
+JOIN
 
-1️⃣ **insercoes.sql**  
-2️⃣ **consultas.sql**  
-3️⃣ **atualizacoes.sql**
+
+As consultas foram desenvolvidas com base no modelo lógico e nos dados inseridos.
+
 
 ---
 
-## ✔️ Requisitos da atividade
+3. atualizacoes.sql
 
-- Script com INSERT  
-- Script com SELECT (5 consultas)  
-- Script com UPDATE e DELETE  
-- Repositório público  
-- README.md completo
+Arquivo com comandos UPDATE e DELETE, garantindo:
 
----
+Integridade dos dados
 
-## 👨‍🎓 Autor
+Respeito às chaves primárias e estrangeiras
 
-**Ryan da Silva Gomes**  
-Aluno – Cruzeiro do Sul Virtual
+Manutenção correta dos relacionamentos do banco
+
+
 
 ---
 
-## 🔗 Repositório
+🏛 Mini-mundo Utilizado
 
-**https://github.com/Ryans880/Pratica-IV-SQL**
+O projeto segue a modelagem da Biblioteca Acadêmica, com as seguintes entidades:
+
+Usuário
+
+Livro
+
+Empréstimo
+
+Reserva
+
+Multa
+
+
+Todas normalizadas até a 3ª Forma Normal (3FN).
+
+
+---
+
+⚙️ Tecnologias Utilizadas
+
+MySQL ou PostgreSQL
+
+Ferramentas: Workbench ou pgAdmin
+
+Git e GitHub para versionamento
+
+
+
+---
+
+✔️ Objetivo da Prática
+
+Inserir dados reais no banco usando SQL (DML)
+
+Consultar informações relevantes
+
+Atualizar e excluir dados com segurança
+
+Compreender o fluxo completo de manipulação em um banco relacional
+
+
+
+---
+
+👨‍💻 Autor
+
+Projeto desenvolvido por Ryan da Silva Gomes
+Curso: Cruzeiro do Sul Virtual
+
+
+---
+
+📎 Como executar
+
+1. Abra o Workbench/pgAdmin
+
+
+2. Crie o banco de dados do mini-mundo
+
+
+3. Execute o arquivo insercoes.sql
+
+
+4. Execute o arquivo consultas.sql
+
+
+5. Execute o arquivo atualizacoes.sql
+
+
+
+
+---
